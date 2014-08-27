@@ -13,4 +13,4 @@ Before you start, make sure you have Powershell 3 installed. Make sure Powershel
 set-executionpolicy unrestricted -s cu
 ```
 
-Right click on init.ps1 and select "Run with PowerShell".
+Right click on install.ps1 and select "Run with PowerShell".
