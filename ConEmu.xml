@@ -8,10 +8,10 @@
 <key name="Software">
 	<key name="ConEmu">
 		<!-- Main configuration (/config argument is not specified) -->
-		<key name=".Vanilla" modified="2014-11-08 10:35:31" build="141107">
+		<key name=".Vanilla" modified="2014-11-08 11:10:37" build="140814">
 			<value name="IconID" type="long" data="1"/>
 			<value name="BackGround Image show" type="hex" data="01"/>
-			<value name="BackGround Image" type="string" data="%ConEmuDir%\Backgrounds\grill.jpg"/>
+			<value name="BackGround Image" type="string" data="%ConEmuDir%\Backgrounds\graphpaper.jpg"/>
 			<value name="FontSize" type="ulong" data="18"/>
 			<value name="FontSizeX" type="ulong" data="0"/>
 			<value name="TabMargins" type="hex" data="00,00,00,00,17,00,00,00,00,00,00,00,00,00,00,00"/>
@@ -61,7 +61,7 @@
 			<value name="AutoRegisterFonts" type="hex" data="01"/>
 			<value name="FontName" type="string" data="Consolas"/>
 			<value name="FontName2" type="string" data="Fixedsys"/>
-			<value name="bgImageDarker" type="hex" data="38"/>
+			<value name="bgImageDarker" type="hex" data="6b"/>
 			<value name="AlphaValue" type="hex" data="ff"/>
 			<value name="UseColorKey" type="hex" data="00"/>
 			<value name="ColorKey" type="dword" data="00010101"/>
@@ -237,7 +237,7 @@
 			<value name="Update.CheckOnStartup" type="hex" data="01"/>
 			<value name="Update.CheckHourly" type="hex" data="00"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
-			<value name="Update.UseBuilds" type="hex" data="02"/>
+			<value name="Update.UseBuilds" type="hex" data="01"/>
 			<value name="TextColorIdx" type="hex" data="10"/>
 			<value name="BackColorIdx" type="hex" data="10"/>
 			<value name="PopTextColorIdx" type="hex" data="10"/>
@@ -457,9 +457,9 @@
 			<value name="KeyMacro32.Text" type="string" data=""/>
 			<value name="CTS.VkPrompt" type="hex" data="00"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2014-11-08 10:35:31" build="141107">
+			<key name="Tasks" modified="2014-11-08 11:10:37" build="140814">
 				<value name="Count" type="dword" data="00000001"/>
-				<key name="Task1" modified="2014-11-08 10:35:31" build="141107">
+				<key name="Task1" modified="2014-11-08 11:10:37" build="140814">
 					<value name="Name" type="string" data="{PowerShell}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*powershell.exe -nologo -noexit -noprofile -executionpolicy bypass -command &quot;invoke-expression '. ''%ConEmuBaseDir%\..\init.ps1'''&quot;"/>
@@ -525,7 +525,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
 			</key>
-      <key name="Apps" modified="2014-11-08 10:35:31" build="141107">
+      <key name="Apps" modified="2014-11-08 11:10:37" build="140814">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 			<value name="CursorTypeActive" type="dword" data="00023240"/>
@@ -606,7 +606,7 @@
 			<value name="Key.JumpNextMonitor" type="dword" data="00105b27"/>
 			<value name="Key.TileToLeft" type="dword" data="00005b25"/>
 			<value name="Key.TileToRIght" type="dword" data="00005b27"/>
-      <key name="Colors" modified="2014-11-08 10:35:31" build="141107">
+      <key name="Colors" modified="2014-11-08 11:10:37" build="140814">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 			<value name="SaveCmdHistory" type="hex" data="00"/>

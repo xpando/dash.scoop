@@ -1,9 +1,12 @@
+Home
+AppData
 ConEmu
 Logs
 plugins
 scoop
 
-ConEmu.xml
+#ConEmu.xml
 ConEmu.exe
 ConEmu64.exe
+ConEmuUpdate.info
 Thumbs.db
